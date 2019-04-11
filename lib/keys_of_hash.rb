@@ -3,5 +3,6 @@ class Hash
     # code goes here
     array = []
     arguments.each {|value| array << key(value) }
+    array
   end
 end
