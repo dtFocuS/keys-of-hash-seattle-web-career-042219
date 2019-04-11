@@ -5,7 +5,7 @@ class Hash
     arguments.each do |target_value|
       keys.each do |target_key|
         values_at(target_key).each do |value|
-          array << target_value == value[0]
+          array << target_key if target_value == value[0]
         end
       end
     end
