@@ -4,7 +4,7 @@ class Hash
     array = []
     arguments.each do |target_value|
       keys.each |target_key|
-        values(target_key).each |
+        values.each |
       array << key(target_value)
     end
     array
