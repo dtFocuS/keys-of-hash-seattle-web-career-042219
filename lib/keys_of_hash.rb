@@ -2,8 +2,10 @@ class Hash
   def keys_of(*arguments)
     # code goes here
     array = []
-    arguments.each do |value| 
-      array << key(value)
+    hash.each do |key, value|
+      arguments.each do |target_value| 
+        array << key(value)
+      end
     end
     array
   end
