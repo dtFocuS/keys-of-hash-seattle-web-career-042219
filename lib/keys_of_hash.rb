@@ -3,6 +3,8 @@ class Hash
     # code goes here
     array = []
     arguments.each do |target_value|
+      keys.each |target_key|
+      if values
       array << key(target_value)
     end
     array
