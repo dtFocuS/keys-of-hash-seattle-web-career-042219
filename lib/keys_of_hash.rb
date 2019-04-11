@@ -2,6 +2,6 @@ class Hash
   def keys_of(*arguments)
     # code goes here
     array = []
-    [*.key(arguments)]
+    #[*.key(arguments)]
   end
 end
