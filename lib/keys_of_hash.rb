@@ -3,7 +3,7 @@ class Hash
     # code goes here
     array = []
     arguments.each do |target_value| 
-      array << key(value)
+      array << key(target_valuevalue)
     end
     array
   end
